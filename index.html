@@ -23,6 +23,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="manifest.json">
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <script>
         // load css files from CDN if local node_modules fail
@@ -410,9 +412,7 @@ In ‘n oogwink was daar nuwe paaie agter hulle, vol stories en 5 jaar se belewe
             <div class="col-md-6 col-md-offset-3">
                 <h3>Waarvoor wag jy nog?</h3>
                 <p>Ons dat tulle assemblies teen die 28ste Maart '25 sal RSVP</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action="https://script.google.com/macros/s/AKfycbwvLhFmY5zbogGK1lFoC9_qN9AHNRp0GhkiYUTh0yxERPVkbw2WzBp4cQNbQ7oArF0e/exec"
-                      method="POST">
+                <form id="rsvp-form" class="rsvp-form" method="POST" action="https://script.google.com/macros/s/AKfycbwvLhFmY5zbogGK1lFoC9_qN9AHNRp0GhkiYUTh0yxERPVkbw2WzBp4cQNbQ7oArF0e/exec">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
@@ -500,5 +500,7 @@ In ‘n oogwink was daar nuwe paaie agter hulle, vol stories en 5 jaar se belewe
     ga('create', 'UA-46465113-4', 'auto');
     ga('send', 'pageview');
 </script>
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+<script data-cfasync="false" type="text/javascript" src="js/google-apps-script.js"></script>
 </body>
 </html>
